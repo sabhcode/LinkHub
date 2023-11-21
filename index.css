@@ -28,7 +28,7 @@ header {
     color: black;
     font-size: 2em;
     display: flex;
-
+    align-items: center;
 }
 
 #logo img {
@@ -41,6 +41,15 @@ header {
 
     text-decoration: none;
     color: rgb(117, 117, 247);
+    display: flex;
+    align-items: center;
+}
+
+#portal-name img {
+
+    
+    width: 35px;
+    margin-right: 5px;
 
 }
 
@@ -50,6 +59,7 @@ header {
     border-radius: 5px;
     padding-left: 10px;   
     display: flex;
+    align-items: center;
 }
 
 .htu img{
@@ -82,8 +92,17 @@ padding: 10px;
 display: flex;
 align-items: center;
 justify-content: space-around;
+text-decoration: none;
 
 }
+
+.link-card:hover {
+
+    background-color: black;
+    color: white;
+    transition-duration: 0.2s;
+
+    }
 
 .link-card img {
 
