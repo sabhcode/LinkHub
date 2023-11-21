@@ -2,7 +2,7 @@ body {
 
     font-family: 'Dela Gothic One', sans-serif;
     padding: 20px;
-    background-color: #7575F7;
+   
 }
 
 header {
@@ -20,6 +20,7 @@ header {
     padding-right: 10px;
     padding-bottom: 5px;
     border-radius: 5px;
+    
 }
 
 #logo {
@@ -40,9 +41,12 @@ header {
 #portal-name {
 
     text-decoration: none;
-    color: whitesmoke;
+    color: #32bd49;
     display: flex;
     align-items: center;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid rgb(220, 220, 220);
 }
 
 #portal-name img {
@@ -54,11 +58,14 @@ header {
 
 .htu {
 
+    border: 1px solid rgb(220, 220, 220);
     border-left: 10px black solid;
     border-radius: 5px;
     padding-left: 10px;   
     display: flex;
     align-items: center;
+    padding: 5px;
+    
 }
 
 .htu img{
@@ -84,8 +91,8 @@ gap: 20px;
 width: 200px;
 gap: 20px;
 text-align: center;
-background-color: #6969dc;
-border-left: 15px solid black;
+border: 1px solid rgb(220, 220, 220);
+border-left: 15px solid #32bd49;
 border-radius: 5px;
 color: black;
 padding: 10px;
@@ -99,7 +106,7 @@ text-decoration: none;
 
 .link-card:hover {
 
-    border-left: 15px solid #464691;
+    border-left: 15px solid black;
     transition-duration: 0.2s;
 
 
