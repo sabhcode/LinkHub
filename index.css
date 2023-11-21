@@ -136,3 +136,17 @@ text-decoration: none;
     gap: 20px;
 
 }
+
+.category h3 {
+
+    display: flex;
+    align-items: center;
+
+}
+
+.category h3 img {
+
+    width: 25px;
+    margin-right: 7px;
+
+}
