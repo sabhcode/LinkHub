@@ -1,0 +1,93 @@
+body {
+
+    font-family: 'Dela Gothic One', sans-serif;
+    padding: 20px;
+    
+}
+
+header {
+
+
+    border-radius: 10px;
+    width: max-content;
+
+}
+
+.header-info {
+
+    border-left: 10px black solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+
+#logo {
+
+    text-decoration: none;
+    color: black;
+    font-size: 2em;
+    display: flex;
+
+}
+
+#logo img {
+
+    width: 35px;
+    margin-right: 10px;
+}
+
+#portal-name {
+
+    text-decoration: none;
+    color: rgb(117, 117, 247);
+
+}
+
+.htu {
+
+    border-left: 10px black solid;
+    border-radius: 5px;
+    padding-left: 10px;   
+    display: flex;
+}
+
+.htu img{
+
+    width: 25px;
+    margin-right: 5px;
+
+}
+
+#content {
+
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+margin: auto;
+margin-top: 50px;
+
+}
+
+.link-card {
+
+width: 200px;
+gap: 20px;
+text-align: center;
+background-color: whitesmoke;
+border-left: 15px solid black;
+border-radius: 5px;
+color: black;
+padding: 10px;
+display: flex;
+align-items: center;
+justify-content: space-around;
+
+}
+
+.link-card img {
+
+    width: 50px;
+    
+
+}
